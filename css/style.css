@@ -1,0 +1,60 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;1,100&display=swap');
+/*
+Paleta de Cores do Projeto
+#cdb4db
+#ffc8dd
+#ffafcc
+#bde0fe
+#a2d2ff
+*/
+
+/*Configurações Gerais*/
+body{
+    background-color: #fcd7e5;
+    font-family: 'Poppins', sans-serif;
+    text-align: justify;
+}
+header h1{
+    font-family: 'Parisienne', cursive;
+    font-size: 4em;
+    text-align: center;
+    padding-top: 20px;
+}
+h2{
+    font-family: 'Parisienne', cursive;
+    font-size: 2.5em;
+}
+
+/*Menu/Navegação*/
+
+nav{
+    height: 50px;
+    background-color: #FFF;
+    font-size: 1.4em;
+    display: flex;
+    align-items: center;
+}
+
+nav li{
+    display: inline-block;
+}
+nav li a{
+    
+    text-decoration: none;
+}
+
+main{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.slider{
+    width: 80vw;
+    border: solid 1px #ccc;
+}
+
+#contato{
+    text-align: center;
+}

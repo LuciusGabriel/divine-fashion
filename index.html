@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Divine Fashion</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Divine Fashion</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Sobre</a></li>
+            <li><a href="#">Catálogo</a></li>
+            <li><a href="#">Contato</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="imagem">
+            <picture>
+                <img src="img/001.jpg" alt="mulher com sacolas" class="slider">
+            </picture>
+        </section>
+
+        <section id="sobre">
+            <h2>Sobre a Divine Fashion</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed hendrerit ex non volutpat tincidunt. Suspendisse semper, lorem a varius ullamcorper, orci turpis lacinia ex, eget tempor tortor quam vitae lorem. Fusce tincidunt consectetur erat in ultricies. Maecenas vehicula tincidunt scelerisque. Aliquam erat volutpat. Proin tempus ornare sapien. Proin quis condimentum metus. Donec vestibulum dui nec elit commodo congue. Donec tempus lorem quis suscipit rhoncus. Phasellus aliquet porta luctus. Praesent nec venenatis lectus. Proin sed neque ex. Vestibulum lobortis enim sed purus malesuada tempus.</p>
+        </section>
+        <section id="catalogo">
+            <h2>Nosso Catálogo</h2>
+
+        </section>
+        <section id="contato">
+            <h2>Contato</h2>
+            
+           
+            <p><label for="nome">Nome</label></p>
+            <p><input type="text" id="nomeid" placeholder="Seu nome" required="required" name="nome" /></p>
+
+            <p><label for="fone">Telefone</label></p>
+            <p><input type="tel" id="foneid" placeholder="(xx)xxxx-xxxx" name="fone" /></p>
+            
+            <p><label for="email">Email</label></p>
+            <p><input type="email" id="emailid" placeholder="fulano@mail.com" name="email" /></p>
+            
+            <p><textarea placeholder="Sua Mensagem"></textarea></p>
+
+            <p><input type="submit" class="enviar" onclick="Enviar();" value="Enviar" /></p>
+
+        </section>
+
+
+    </main>
+
+    
+    <script src="js/main.js"></script>
+</body>
+</html>
