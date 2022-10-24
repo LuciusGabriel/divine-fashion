@@ -15,9 +15,9 @@
     <nav>
         <ul>
             <li><a href="#">Home</a></li>
-            <li><a href="#">Sobre</a></li>
-            <li><a href="#">Catálogo</a></li>
-            <li><a href="#">Contato</a></li>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#catalogo">Catálogo</a></li>
+            <li><a href="#contato">Contato</a></li>
         </ul>
     </nav>
     <main>
@@ -33,6 +33,10 @@
         </section>
         <section id="catalogo">
             <h2>Nosso Catálogo</h2>
+            <div id="img-1"></div>
+            <div id="img-2"></div>
+            <div id="img-3"></div>
+
 
         </section>
         <section id="contato">
@@ -40,15 +44,15 @@
             
            
             <p><label for="nome">Nome</label></p>
-            <p><input type="text" id="nomeid" placeholder="Seu nome" required="required" name="nome" /></p>
+            <p><input type="text" id="nomeid" class="form" placeholder="Seu nome" required="required" name="nome" /></p>
 
             <p><label for="fone">Telefone</label></p>
-            <p><input type="tel" id="foneid" placeholder="(xx)xxxx-xxxx" name="fone" /></p>
+            <p><input type="tel" id="foneid" class="form" placeholder="(xx)xxxx-xxxx" name="fone" /></p>
             
             <p><label for="email">Email</label></p>
-            <p><input type="email" id="emailid" placeholder="fulano@mail.com" name="email" /></p>
+            <p><input type="email" id="emailid" class="form" placeholder="email@mail.com" name="email" /></p>
             
-            <p><textarea placeholder="Sua Mensagem"></textarea></p>
+            <p><textarea class="msg" placeholder="Sua Mensagem"></textarea></p>
 
             <p><input type="submit" class="enviar" onclick="Enviar();" value="Enviar" /></p>
 

@@ -41,10 +41,19 @@ nav li{
     display: inline-block;
 }
 nav li a{
-    
+    color: #ffafcc ;
     text-decoration: none;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+nav li a:hover{
+    color: #ff5795;
+    border: solid 1px #ffafcc;
+    border-radius: 5px;
+    font-weight: 500;
 }
 
+/*Main Content*/
 main{
     width: 80%;
     margin: 0 auto;
@@ -53,8 +62,75 @@ main{
 .slider{
     width: 80vw;
     border: solid 1px #ccc;
+    margin-bottom: 1%;
 }
 
+/*CONTEINER SOBRE*/
+#sobre{
+    margin-bottom: 2%;
+}
+
+#sobre p{
+    margin-top: 1%;
+    text-indent: 4em;
+}
+
+
+/*CONTEINER CATÁLOGO*/
+#catalogo{
+    margin-bottom: 2%;
+}
+#catalogo h2{
+    margin-bottom: 2%;
+}
+#img-1{
+    background-color: #f6e6ec;
+    width: 32%;
+    height: 400px;
+    display: inline-block;
+}
+#img-2{
+    background-color: #fbc8db;
+    width: 32%;
+    height: 400px;
+    display: inline-block;
+}
+#img-3{
+    background-color: #f6e6ec;
+    width: 32%;
+    height: 400px;
+    display: inline-block;
+}
+
+
+/*CONTATO*/
 #contato{
     text-align: center;
+}
+
+#contato p{
+    font-size: 1em;
+    font-weight: bold;
+}
+.form{
+    font-size: 1em;
+    margin-bottom: 1%;
+    width: 40%;
+    border: none;
+    min-height: 30px;
+}
+.msg{
+    width: 40%;
+    min-height: 80px;
+    font-size: 1em;
+}
+.enviar{
+    width: 20%;
+    height: 30px;
+    color: #fff;
+    background-color: #ffafcc;
+    border: none;
+    border-radius: 10px;
+    font-size: 1em;
+    margin-top: 1%;
 }
