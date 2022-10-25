@@ -16,15 +16,21 @@ body{
     font-family: 'Poppins', sans-serif;
     text-align: justify;
 }
+header{
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 header h1{
     font-family: 'Parisienne', cursive;
     font-size: 4em;
     text-align: center;
-    padding-top: 20px;
 }
 h2{
     font-family: 'Parisienne', cursive;
     font-size: 2.5em;
+    text-shadow: rgba(0, 0, 0, 0.186) 2px 2px;
 }
 
 /*Menu/Navegação*/
@@ -35,13 +41,14 @@ nav{
     font-size: 1.4em;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 nav li{
     display: inline-block;
 }
 nav li a{
-    color: #ffafcc ;
+    color: #fa94b9 ;
     text-decoration: none;
     padding-right: 20px;
     padding-left: 20px;
@@ -74,6 +81,10 @@ main{
     margin-top: 1%;
     text-indent: 4em;
 }
+.store-img{
+    width: 20vw;
+    box-shadow: rgba(0, 0, 0, 0.186) 3px 3px;
+}
 
 
 /*CONTEINER CATÁLOGO*/
@@ -85,20 +96,20 @@ main{
 }
 #img-1{
     background-color: #f6e6ec;
-    width: 32%;
-    height: 400px;
+    width: 33%;
+    height: 500px;
     display: inline-block;
 }
 #img-2{
     background-color: #fbc8db;
-    width: 32%;
-    height: 400px;
+    width: 33%;
+    height: 500px;
     display: inline-block;
 }
 #img-3{
     background-color: #f6e6ec;
-    width: 32%;
-    height: 400px;
+    width: 33%;
+    height: 500px;
     display: inline-block;
 }
 
@@ -119,6 +130,7 @@ main{
     border: none;
     min-height: 30px;
 }
+
 .msg{
     width: 40%;
     min-height: 80px;
@@ -128,9 +140,23 @@ main{
     width: 20%;
     height: 30px;
     color: #fff;
-    background-color: #ffafcc;
+    background-color:  #f178a5;
     border: none;
     border-radius: 10px;
     font-size: 1em;
     margin-top: 1%;
+}
+.enviar:hover{
+    background-color: #f2548e;
+}
+
+/*Footer*/
+footer{
+    height: 50px;
+    background-color: #FFF;
+    text-align: center;
+    margin-top: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
