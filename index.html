@@ -29,15 +29,18 @@
 
         <section id="sobre">
             <h2>Sobre a Divine Fashion</h2>
-            <img src="img/store.jpg" alt="A Loja" class="store-img">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed hendrerit ex non volutpat tincidunt. Suspendisse semper, lorem a varius ullamcorper, orci turpis lacinia ex, eget tempor tortor quam vitae lorem. Fusce tincidunt consectetur erat in ultricies. Maecenas vehicula tincidunt scelerisque. Aliquam erat volutpat. Proin tempus ornare sapien. Proin quis condimentum metus. Donec vestibulum dui nec elit commodo congue. Donec tempus lorem quis suscipit rhoncus. Phasellus aliquet porta luctus. Praesent nec venenatis lectus. Proin sed neque ex. Vestibulum lobortis enim sed purus malesuada tempus.</p>
+            <div id="wrapper-sobre">
+                <img src="img/store.jpg" alt="A Loja" class="store-img">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed hendrerit ex non volutpat tincidunt. Suspendisse semper, lorem a varius ullamcorper, orci turpis lacinia ex, eget tempor tortor quam vitae lorem. Fusce tincidunt consectetur erat in ultricies. Maecenas vehicula tincidunt scelerisque. Aliquam erat volutpat. Proin tempus ornare sapien. Proin quis condimentum metus. Donec vestibulum dui nec elit commodo congue. Donec tempus lorem quis suscipit rhoncus. Phasellus aliquet porta luctus. Praesent nec venenatis lectus. Proin sed neque ex. Vestibulum lobortis enim sed purus malesuada tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed hendrerit ex non volutpat tincidunt. Suspendisse semper, lorem a varius ullamcorper, orci turpis lacinia ex, eget tempor tortor quam vitae lorem. Fusce tincidunt consectetur erat in ultricies. Maecenas vehicula tincidunt scelerisque. Aliquam erat volutpat. Proin tempus ornare sapien. Proin quis condimentum metus. Donec vestibulum dui nec elit commodo congue. Donec tempus lorem quis suscipit rhoncus. Phasellus aliquet porta luctus. Praesent nec venenatis lectus. Proin sed neque ex. Vestibulum lobortis enim sed purus malesuada tempus.</p>
+            </div>
         </section>
         <section id="catalogo">
             <h2>Nosso Catálogo</h2>
-            <div id="img-1"></div>
-            <div id="img-2"></div>
-            <div id="img-3"></div>
-
+            <div id="wrapper-catalogo">
+                <div class="slider-catalogo"><img src="img/catalogo-01.jpg" alt="Primeira Peça Catálogo" class="img-catalogo"></div>
+                <div class="slider-catalogo"><img src="img/catalogo-02.jpg" alt="Segunda Peça Catálogo" class="img-catalogo"></div>
+                <div class="slider-catalogo"><img src="img/catalogo-03.jpg" alt="Terceira Peça Catálogo" class="img-catalogo"></div>
+            </div>
 
         </section>
         <section id="contato">
@@ -53,9 +56,11 @@
             <p><label for="email">Email</label></p>
             <p><input type="email" id="emailid" class="form" placeholder="email@mail.com" name="email" /></p>
             
-            <p><textarea class="msg" placeholder="Sua Mensagem"></textarea></p>
+            <p><textarea id="textid" class="msg" placeholder="Sua Mensagem"></textarea></p>
 
-            <p><input type="submit" class="enviar" onclick="Enviar();" value="Enviar" /></p>
+            <p><input type="submit" class="enviar" onclick="enviar();" value="Enviar" /></p>
+
+            <div id="resultado"></div>
 
         </section>
 
