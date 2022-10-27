@@ -67,10 +67,8 @@ main{
     background-color: #FFF;
 }
 
-.slider{
-    width: 80vw;
-    border: solid 1px #ccc;
-    margin-bottom: 1%;
+#slider{
+    width: 100%;
 }
 
 /*CONTEINER SOBRE*/
