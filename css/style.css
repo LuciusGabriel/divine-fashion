@@ -28,7 +28,7 @@ header img:hover{
 }
 h2{
     font-family: 'Parisienne', cursive;
-    font-size: 3.5em;
+    font-size: 3em;
     text-shadow: rgba(0, 0, 0, 0.186) 2px 2px;
 }
 
@@ -54,7 +54,8 @@ nav li a{
 }
 nav li a:hover{
     color: #ff5795;
-    border: solid 1px #ffafcc;
+    border-bottom: solid 1px #ffafcc;
+    border-top: solid 1px #ffafcc;
     border-radius: 5px;
     font-weight: 500;
 }
@@ -69,11 +70,13 @@ main{
 #slider{
     width: 100%;
     margin-bottom: 1%;
+    border-bottom: #fcd7e5 3px solid;
 }
 
 /*CONTEINER SOBRE*/
 #sobre{
-    margin-bottom: 2%;
+    border-bottom: #fcd7e5 3px solid;
+    border-radius: 20px;
 }
 
 #sobre h2{
@@ -93,7 +96,7 @@ main{
 
 }
 .store-img{
-    width: 40vw;
+    width: 50%;
     box-shadow: rgba(0, 0, 0, 0.186) 3px 3px;
 }
 
@@ -103,7 +106,9 @@ main{
     margin-bottom: 1%;
     background-color: #FFF;
     padding-top: 1%;
-    padding-bottom: 2%;
+    padding-bottom: 1%;
+    border-bottom: #fcd7e5 3px solid;
+    border-radius: 20px;
 }
 #catalogo h2{
     margin-bottom: 2%;
@@ -129,31 +134,14 @@ main{
     width: 100%;
     transition: ease 0.5s ;
 }
-/*
-#img-1{
-    background-color: #f6e6ec;
-    width: 33%;
-    height: 500px;
-    display: inline-block;
-}
-#img-2{
-    background-color: #fbc8db;
-    width: 33%;
-    height: 500px;
-    display: inline-block;
-}
-#img-3{
-    background-color: #f6e6ec;
-    width: 33%;
-    height: 500px;
-    display: inline-block;
-}
-*/
+
 
 /*CONTATO*/
 #contato{
     text-align: center;
-    padding-bottom: 2%;
+    padding-bottom: 1%;
+    border-bottom: #fcd7e5 3px solid;
+    border-radius: 20px;
 }
 
 #contato p{
@@ -163,29 +151,48 @@ main{
 .form{
     font-size: 1em;
     margin-bottom: 1%;
-    width: 30%;
+    width: 40%;
     border: none;
     min-height: 30px;
-    background-color: rgb(240, 239, 239);
+    background-color: #fcd7e5;
 }
 
 .msg{
-    width: 30%;
+    width: 40%;
     min-height: 80px;
     font-size: 1em;
+    background-color: #fcd7e5;
 }
 .enviar{
-    width: 20%;
+    width: 15%;
     height: 30px;
     color: #fff;
     background-color:  #f178a5;
     border: none;
-    border-radius: 10px;
+    border-radius: 5px;
     font-size: 1em;
     margin-top: 1%;
 }
 .enviar:hover{
     background-color: #f2548e;
+}
+
+/*Visite a Loja*/
+#visite{
+    width: 100%;
+    margin-top: 1%;
+    padding-bottom: 2%;
+}
+#visite h2{
+    text-align: center;
+    margin-bottom: 1%;
+}
+.mapouter{
+    text-align: center;
+    
+}
+#gmap_canvas{
+    border: #fcd7e5 3px solid;
 }
 
 /*Footer*/

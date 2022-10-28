@@ -1,4 +1,4 @@
-//FORMULÁRIO
+//Validação Simples FORMULÁRIO
 
 const nome = document.getElementById('nomeid')
 const telefone = document.getElementById('foneid')
