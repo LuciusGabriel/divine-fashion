@@ -17,15 +17,14 @@ body{
     text-align: justify;
 }
 header{
-    height: 150px;
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
 }
-header h1{
-    font-family: 'Parisienne', cursive;
-    font-size: 4em;
-    text-align: center;
+header img:hover{
+    cursor:pointer;
 }
 h2{
     font-family: 'Parisienne', cursive;
@@ -69,6 +68,7 @@ main{
 
 #slider{
     width: 100%;
+    margin-bottom: 1%;
 }
 
 /*CONTEINER SOBRE*/
