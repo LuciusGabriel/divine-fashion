@@ -8,5 +8,8 @@
 
 *Deploy: https://divine-fashion.vercel.app/*
 
+**Imagem**
+![Apresentação Projeto](https://github.com/LuciusGabriel/divine-fashion/blob/main/assets/img/print.jpg "Apresentação Projeto")
+
 2º Projeto incentivado pela mentoria Conquiste Sua Vaga. **Turma 20**,
 AVANTE! :rocket:
